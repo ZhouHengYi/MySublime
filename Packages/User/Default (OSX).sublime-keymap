@@ -1,0 +1,6 @@
+[
+	{"keys": ["ctrl+shift+r"], "command": "reindent" , "args": {"single_line": false}},
+	{ "keys": ["ctrl+shift+o"], "command": "show_panel", "args": {"panel": "output.exec"} },
+	{ "keys": ["super+alt+m"], "command": "advanced_new_file_new"},
+]
+

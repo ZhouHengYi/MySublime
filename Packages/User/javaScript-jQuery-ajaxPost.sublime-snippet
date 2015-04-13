@@ -1,0 +1,20 @@
+<snippet>
+     <content><![CDATA[\$.ajax({
+		url: '${1}',
+		type: 'POST',
+		dataType: '${2}default: Intelligent Guess (Other values: xml, json, script, or html)',
+    	data: ${3}{param1: 'value1'},
+	})
+	.done(function(e) {
+		${4}
+		console.log("success");
+	})
+	.fail(function(e) {
+		console.log("error");
+	})
+	.always(function(e) {
+		console.log("complete");
+	});]]></content>
+     <tabTrigger>$.ajaxpost_h</tabTrigger>
+     <description>jQuery ajax post</description>
+</snippet>

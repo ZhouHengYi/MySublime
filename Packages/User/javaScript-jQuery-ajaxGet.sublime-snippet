@@ -1,0 +1,18 @@
+<snippet>
+     <content><![CDATA[\$.ajax({
+		url: '${1}',
+		type: 'GET'
+	})
+	.done(function(e) {
+		${2}
+		console.log("success");
+	})
+	.fail(function(e) {
+		console.log("error");
+	})
+	.always(function(e) {
+		console.log("complete");
+	});]]></content>
+     <tabTrigger>$.ajaxget_h</tabTrigger>
+     <description>jQuery ajax get</description>
+</snippet>

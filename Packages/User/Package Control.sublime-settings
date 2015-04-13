@@ -1,0 +1,29 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Console API Snippets (JavaScript)",
+		"ConvertToUTF8",
+		"DocBlockr",
+		"Emmet",
+		"Github Tools",
+		"Http Requester",
+		"jQuery",
+		"jQueryDocs",
+		"JsFormat",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"QuickGotoAnything",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SummitLinter",
+		"Theme - Argonaut",
+		"Theme - Flatland",
+		"Theme - Spaceblack"
+	]
+}

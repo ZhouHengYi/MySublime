@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[for(var i = 0 ; i < ${1:arraylist}.length ; i ++)
+{
+	${2}
+}]]></content>
+	<tabTrigger>for_h</tabTrigger>
+	<description>jQuery for handler</description>
+</snippet>

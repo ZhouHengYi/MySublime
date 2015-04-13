@@ -1,0 +1,13 @@
+{
+    "cmd": ["mcs", "$file"],
+    "file_regex": "^(...*?):([0-9]*):?([0-9]*)",
+    "selector": "source.cs",
+    "encoding": "GBK",
+    "variants": 
+     [ 
+        { 
+            "name": "Run", 
+            "cmd": ["Mono", "${file_path}/${file_base_name}.exe"] 
+        } 
+     ]  
+}
